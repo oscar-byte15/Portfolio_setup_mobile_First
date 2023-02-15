@@ -93,6 +93,11 @@ body {
 
 #my_work { margin: 50px 0 57px 0; }
 
+#my_work {
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: repeat(18, 100vh);
+}
 .project {
   background-color: #fff;
   border-radius: 2.5%;
@@ -335,6 +340,12 @@ footer h3:hover {
   color: #172b4d;
   display: flex;
   align-items: flex-end;
+}
+#about_me {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 0 8% 10%;
+  grid-column-gap: 5%;
 }
 
 
@@ -710,15 +721,8 @@ span {
 
   .bottom-bar { display: none; }
 
-  .wrap .contact button {
-    align-self: center;
-    padding: 10px;
-  }
 
-  .contact {
-    justify-content: center;
-    align-items: center;
-  }
+  
 
   .wrap .contact-parag { margin-bottom: 20px; }
 
@@ -739,8 +743,7 @@ span {
   }
 
   #nav nav {
-
-    margin-left: 1.69%;
+    display: none;
   }
 
   #nav .internal-link {
@@ -799,5 +802,43 @@ span {
     background-image: none;
   }
 
-  
 
+ 
+  .wrap {
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+    margin-bottom: 200px;
+  }
+
+  .form-section {
+    background-image:
+      url("../statics/images/e1.svg"),
+      url("../statics/images/r1.svg"),
+      url("../statics/images/e2.svg"),
+      url("../statics/images/r2.svg"),
+      url("../statics/images/e3.svg"),
+      url("../statics/images/r3.svg"),
+      url("../statics/images/e4.svg"),
+      url("../statics/images/e5.svg"),
+      url("../statics/images/contact-form-\ background.svg");
+    background-repeat: no-repeat;
+    background-position:
+      5.2% 44%,
+      5.83% 40.07%,
+      87% 14.06%,
+      84.16% 8%,
+      24.86% 90.19%,
+      23.4% 87.58%,
+      36.4% 13.47%,
+      78.4% 61.58%,
+      0;
+    background-size: auto, auto, auto, auto, auto, auto, auto, auto, cover;
+  }
+
+
+
+  .last {
+    margin-left: 42.5%;
+  }
+}
