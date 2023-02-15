@@ -91,7 +91,11 @@ body {
   margin-right: 20px;
 }
 
-#my_work { margin: 50px 0 57px 0; }
+#my_work {
+  margin: 50px 0 57px 0;
+  display: grid;
+  grid-template-rows: repeat(18, 100vh);
+}
 
 .project {
   background-color: #fff;
@@ -124,7 +128,6 @@ footer h3:hover {
   text-decoration-thickness: 2px;
   text-decoration-color: #23a3fa;
 }
-
 
 #general_inf {
   display: flex;
@@ -289,36 +292,6 @@ footer h3:hover {
   margin-right: 60%;
 }
 
-#general_inf_1 {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 0;
-}
-
-#general_inf_2 {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 0;
-}
-
-#general_inf_3 {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 0;
-}
-
 #about_me {
   margin: 0;
   display: flex;
@@ -336,7 +309,6 @@ footer h3:hover {
   display: flex;
   align-items: flex-end;
 }
-
 
 #presentation {
   font-family: Poppins, sans-serif;
@@ -419,227 +391,10 @@ footer h3:hover {
   justify-content: space-between;
 }
 
-
-
-.spec_name div { margin-right: 24px; } 
-
-.spec_name div img { vertical-align: middle; }
-
-#programmes {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  justify-content: space-between;
-  margin-right: 24px;
-}
-
-#skills-cards {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  justify-content: space-between;
-  margin-right: 24px;
-}
-
-.frameworks-skills {
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-  justify-content: space-between;
-  margin-right: 24px;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-
-.pro {
-  list-style: none;
-  display: flex;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin-bottom: 5px;
-}
-
-#my_skills p {
-  align-self: flex-start;
-  margin: 15px 10% 0 15px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-}
-
-#frameworks {
-  display: flex;
-  flex-direction: column;
-}
-
-#frameworks div { margin-top: 7px; }
-
-#l1 {
-  height: 5px;
-  margin: 10px 0;
-}
-
-#l1 hr {
-  background: #dfe1e6;
-  height: 1px;
-  vertical-align: middle;
-  margin-top: 3px;
-}
-
-#sk {
-  display: flex;
-  flex-direction: column;
-}
-
-
-#sk div { margin-top: 7px; }
-
-#l2 {
-  height: 5px;
-  margin: 10px 0;
-}
-
-#l2 hr {
-  background: #dfe1e6;
-  height: 1px;
-}
-
-#programmes .pro p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500 ;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 15px;
-  margin-top: 15px;
-}
-
-
-.frameworks-skills .pro p {
-  font-family: Poppins, sans-serif !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 15px !important;
-  line-height: 20px !important;
-  color: #253858 !important;
-  margin-left: 15px !important;
-}
-
-.final_wrap {
-  background-color: #fff;
-  border-radius: 7.5%;
-}
-
-
-
-.wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.contact-title {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-}
-
-.contact-parag {
-  font-family: Poppins, sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  margin: auto 10px;
-  padding: 0 10px;
-  margin-bottom: 50px;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 90%;
-}
-
-.contact input {
-  font-family: Poppins, sans-serif;
-  font-size: 17px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  padding: 15px 10px;
-  border-radius: 12px;
-  border: none;
-}
-
-.contact textarea {
-  font-family: Poppins, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
-  color: #b3bac5;
-  padding: 15px;
-  border-radius: 12px;
-  border: none;
-}
-
-.contact button {
-  font-family: Poppins, sans-serif;
-  font-weight: 800;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  align-self: flex-start;
-  padding: 20px 35px;
-  border-radius: 12px;
-  border: none;
-}
-
-.bottom-bar {
-  margin-top: 50px;
-  background-color: #0d151e;
-  height: 4px;
-  width: 150px;
-  border: 1px solid #0d151e;
-  border-radius: 25px;
-}
-
-.contact button:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-.contact button:active {
-  background-color: #2230d2;
-  color: #fff;
-}
-
 #nav .logo:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
-}
-
-.pop-window {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  height: 100vh;
-  width: 95%;
-  margin-left: 2.5%;
 }
 
 .pop-header {
@@ -676,25 +431,6 @@ footer h3:hover {
   margin-top: 0;
 }
 
-.techns {
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
-  padding-left: 0;
-}
-
-.inf {
-  display: flex;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  margin-top: 5px;
-  margin-left: 0;
-  color: #344563;
-}
-.pop-header-description {}
-
 span {
   font-family: Poppins, sans-serif;
   color: red;
@@ -708,22 +444,6 @@ span {
     height: 100px;
   }
 
-  .bottom-bar { display: none; }
-
-  .wrap .contact button {
-    align-self: center;
-    padding: 10px;
-  }
-
-  .contact {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .wrap .contact-parag { margin-bottom: 20px; }
-
-  .contact-title { margin-bottom: 0; }
-
   #nav {
     margin-top: 0;
     margin-right: 10.69%;
@@ -731,7 +451,6 @@ span {
   }
 
   header #nav .logo {
-    /*margin-right: 30%;*/
     font-family: Poppins, sans-serif;
     font-weight: bold;
     font-size: 18px;
@@ -739,8 +458,7 @@ span {
   }
 
   #nav nav {
-
-    margin-left: 1.69%;
+    display: none;
   }
 
   #nav .internal-link {
@@ -798,6 +516,4 @@ span {
     justify-content: stretch;
     background-image: none;
   }
-
-  
-
+}
