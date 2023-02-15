@@ -1,76 +1,257 @@
-![](https://img.shields.io/badge/Microverse-blueviolet) 
+<a name="readme-top"></a>
 
-# Portfolio: setup and mobile version skeleton
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
+Modify this file to match your project and remove sections that don't apply.
 
-![home_page](https://github.com/Taher-web-dev/Portfolio-setup-and-mobile-version-skeleton/blob/work_about_myself/statics/images/screenshot_home_page.png)
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With 🔨
+OPTIONAL SECTIONS:
+- FAQ
 
-- HTML
-- CSS
-- Git & Github
+After you're finished please remove all the comments and instructions!
+-->
 
-## Live Demo
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-[Live Demo Link](https://taher-web-dev.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+  <h3><b>Microverse README Template</b></h3>
 
-### Install
+</div>
 
-To get a local copy up and running follow these simple example steps.
-- Open terminal
-- Clone this project by the command: 
+<!-- TABLE OF CONTENTS -->
 
-```
-$ git clone git@github.com:Taher-web-dev/Portfolio-setup-and-mobile-version-skeleton.git
-```
+# 📗 Table of Contents
 
-- Then go to the main folder using the next command:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-```
-$ cd Portfolio-setup-and-mobile-version-skeleton.git
-```
+<!-- PROJECT DESCRIPTION -->
 
-- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
+# 📖 Portfolio: setup and mobile version <a name="about-project"></a>
+
+> In this project, I will set up some files to prove linters and start to build my personal web site with my personal presentation
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
 
 
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">Javascript</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">None</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">None</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- **Personal presentation**
+- **Responsive site**
+- **Good documentation of this project**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- Not available
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- IDE to edit and run the code (We use Visual Studio Code 🔥).
-- Git to versionning your work.
+In order to run this project you need: Visual Studio Code and Node Js
 
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with: npm commands
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
 
 ### Usage
 
-- For anyone who wants to practice html5 or/and css3
-- For anyone who wants to create his own portfolio.
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command: Use the linters in Github actions
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+### Deployment
+
+You can deploy this project using: github pages
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Oscar De la Cruz**
+
+- GitHub: [@oscar-byte15](https://github.com/oscar-byte15)
+- Twitter: [@oscardlacruz15](https://twitter.com/oscardlacruz15)
+- LinkedIn: [Oscar De la Cruz](https://www.linkedin.com/in/oscar-daniel-de-la-cruz-jara/)
 
 
-## Authors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Taher Haggui**
+<!-- FUTURE FEATURES -->
 
-- GitHub: [@TaherHaggui](https://github.com/Taher-web-dev)
-- LinkedIn: [@TaherHaggui](https://www.linkedin.com/in/taher-haggui-66b5a6198/)
+## 🔭  Future Features:
+- [ ] **[more personal projects]**
+- [ ] **[more functions to see the information]**
+- [ ] **[share content on social media]**
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, you cand send me a message through any social media that I own
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 
-## Show your support
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-## Acknowledgments
+## 📝 License <a name="license"></a>
 
-- Hat tip to anyone whose code was used 🔰
-- Inspiration 💘
-- Microverse program ⚡
-- My standup team 🏹
-- My family's support 🙌
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
