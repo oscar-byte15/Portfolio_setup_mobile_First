@@ -60,14 +60,32 @@ body {
   height: 600px;
 }
 
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .short-presentation {
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  color: #172b4d;
-  line-height: 52px;
-  text-align: start;
-  margin: 0 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 #home_presentation p {
@@ -113,7 +131,7 @@ h3 {
   line-height: 44px;
 }
 
-footer h3 {
+div h3 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -123,7 +141,7 @@ footer h3 {
   margin-left: 24px;
 }
 
-footer h3:hover {
+div h3:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: #23a3fa;
@@ -209,12 +227,12 @@ footer h3:hover {
   margin-left: 24px;
 }
 
-.general footer {
+.general div {
   display: flex;
   flex-direction: column;
 }
 
-#home_presentation footer {
+#home_presentation div {
   display: flex;
   flex-direction: column;
 }
@@ -457,7 +475,7 @@ span {
     line-height: 20px;
   }
 
-  #nav nav {
+  #nav div {
     display: none;
   }
 
