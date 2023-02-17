@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    
-    <meta charset="utf-8">
-    <title> Oscar De la Cruz </title>
-    <link rel="stylesheet" type="text/css" href="styles/template2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,600&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Oscar De la Cruz | Portfolio, Front-End Developer from Peru" />
+  <meta name="keywords" content="Portfolio,Front-End,Front-End Developer,Personal Portfolio, HTML, CSS, Javascript, Oscar De la Cruz" />
+  <meta name="author" content="Oscar De la Cruz" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="styles/template2.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+
+  <title>Oscar Front-End Developer</title>
 </head>
-    <body>
-      <div class="home-page">
-        <header>
-          <nav id="nav">
-          
-            <a class="logo" href="#">My Logo</a> 
-            <nav class="hamburger"><img src="statics/images/Union.png" alt="Menu"></nav>
-            
-            <ul class="internal-link">
-              <li><a href="#my_work">Portfolio</a></li>
-              <li><a href="#about_me">About</a></li>
-              <li><a href="#form-section"> Contact </a></li>
-           </ul>
 
-          </nav>
-        </header>
-        <section id="home_presentation">
-           <h1 class="short-presentation">I’m Oscar
-            Glad to see you!</h1>
-            <p>
-                I’m a software developer! I can help you build a product ,
-                feature or website Look through some of my work and experience!
-                If you like what you see and have a project you need coded, don’t hestiate to contact me.
-            </p>
-            <div>
-                <h3>LET'S CONNECT</h3>
-                <div id="contact">
-                   <ul>
-                    <li class="icon"><a href="https://www.linkedin.com/in/oscar-daniel-de-la-cruz-jara/" target="_blank" rel="noopener">
-                      <img src="statics/images/twitter.png" alt="twitter link"></a></li>
-                     <li class="icon"><a href="https://www.linkedin.com/in/oscar-daniel-de-la-cruz-jara/" target="_blank" rel="noopener">
-                      <img src="statics/images/Linkedin_icon.png" alt="linked link"></a></li>
-                      <li class="icon"><a href="https://www.linkedin.com/in/oscar-daniel-de-la-cruz-jara/" target="_blank" rel="noopener">
-                        <img src="statics/images/M.png" alt="M link"></a></li>
-                     <li class="icon"><a href="https://github.com/oscar-byte15" target="_blank" rel="noopener"><img src="statics/images/github.png" alt="github link"></a></li>
-                     <li class="icon"><a href="https://www.linkedin.com/in/oscar-daniel-de-la-cruz-jara/" target="_blank" rel="noopener">
-                      <img src="statics/images/thumb.png" alt="thumb link"></a></li>
-                   </ul>
-                </div>
-            </div>
-        </section>
+<body>
+  <div class="hero">
+    <header class="header bg-white">
+      <nav class="navbar flex">
+        <a href="#" class="navbar__link link fz-20 fw-700 lh-20">My Logo</a>
+        <div class="navbar__menu">
+          <ul class="navbar__menu__ul ul flex">
+            <li class="navbar__menu__li">
+              <a href="#works" class="navbar__menu__link link fw-500 fz-15 lh-20 clr-n-600">Portfolio</a>
+            </li>
+            <li class="navbar__menu__li">
+              <a href="#about" class="navbar__menu__link link fw-500 fz-15 lh-20 clr-n-600">About</a>
+            </li>
+            <li class="navbar__menu__li">
+              <a href="#contact" class="navbar__menu__link link fw-500 fz-15 lh-20 clr-n-600">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <img class="navbar__hamb" src="images/hamburguer.png" alt="hamburguer icon" />
+      </nav>
+    </header>
 
-        
-      </div>
+    <section class="head flex">
+      <h1 class="head__title fz-40 fw-700 lh-52">
+        I'm Oscar <span>Glad to see you!</span>
+      </h1>
+      <p class="head__dsc fz-16 fw-400 lh-24">
+        I’m a software developer! I can help you build a product , feature or
+        website Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hestiate to contact
+        me.
+      </p>
+      <a href="#works" class="head__link link fz-16 fw-500 lh-24 clr-p-400">My Projects</a>
+      <ul class="head__icons ul flex">
+        <li class="head__icons__li">
+          <a href="https://twitter.com/oscardlacruz15" class="head__icons__link link"><img src="images/twitter.png" alt="twitter icon" /></a>
+        </li>
+        <li class="head__icons__li">
+          <a href="https://www.linkedin.com/in/oscar-daniel-de-la-cruz-jara/" class="head__icons__link link"><img src="images/Linkedin.svg" alt="linkedin icon" /></a>
+        </li>
+        <li class="head__icons__li">
+          <a href="#" class="head__icons__link link"><img src="images/M.png" alt="M icon" /></a>
+        </li>
+        <li class="head__icons__li">
+          <a href="https://github.com/oscar-byte15" class="head__icons__link link"><img src="images/github.svg" alt="github icon" /></a>
+        </li>
+        <li class="head__icons__li">
+          <a href="#" class="head__icons__link link"><img src="images/hand.svg" alt="hand icon" /></a>
+        </li>
+      </ul>
+    </section>
+
     
-    </body>
+    
+  </div>
+  <script type="module" src="src/main.js"></script>
+</body>
+
 </html>
