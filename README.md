@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -149,13 +148,6 @@ Example command:
 
 You can deploy this project using: github pages
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
